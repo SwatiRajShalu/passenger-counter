@@ -1,0 +1,63 @@
+body {
+   
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    background: linear-gradient(135deg,black,grey,black);
+    
+}
+#container{
+    background: url(pexels-vlad-bagacian-1444108.jpg);
+    border: black 5px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 600px;
+    border-radius: 50px;
+}
+
+h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+button {
+    font-size: 15px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(10, 9, 9);
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+#increament-el {
+    background: rgb(165, 216, 55);
+}
+#decreament-el {
+    background: rgb(231, 24, 13);
+}
+
+#save-el {
+    background: rgb(12, 166, 218);
+}
+.small{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
