@@ -11,7 +11,7 @@ body {
     
 }
 #container{
-    background: url(pexels-vlad-bagacian-1444108.jpg);
+    background: url(img/pexels-vlad-bagacian-1444108.jpg);
     border: black 5px;
     background-size: cover;
     display: flex;
@@ -45,15 +45,19 @@ button {
     border-radius: 5px;
 }
 #increament-el {
+    cursor: pointer;
     background: rgb(165, 216, 55);
 }
 #decreament-el {
+    cursor: pointer;
     background: rgb(231, 24, 13);
 }
 
 #save-el {
+    cursor: pointer;
     background: rgb(12, 166, 218);
 }
+
 .small{
     display: flex;
     flex-direction: column;
@@ -61,3 +65,21 @@ button {
     align-items: center;
 }
 
+ul{
+    display: flex;
+}
+
+ul > li{
+    list-style: none;
+    margin: 10px;
+}
+
+.clear{
+    padding: 0.4rem;
+    border: 1px white solid;
+    border-radius: 5%;
+    cursor: pointer;
+}
+.clear:hover{
+    box-shadow: 4px 4px grey;
+}
