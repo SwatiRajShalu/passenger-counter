@@ -11,7 +11,7 @@ body {
     
 }
 #container{
-    background: url(pexels-vlad-bagacian-1444108.jpg);
+    background: url(img/pexels-vlad-bagacian-1444108.jpg);
     border: black 5px;
     background-size: cover;
     display: flex;
